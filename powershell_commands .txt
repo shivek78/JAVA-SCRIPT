@@ -1,0 +1,400 @@
+# Create the Week 1 folder
+New-Item -Path "Week 1 - JavaScript Basics" -ItemType Directory
+
+# Navigate into the Week 1 folder
+Set-Location "Week 1 - JavaScript Basics"
+
+# Create .js files for each main topic
+New-Item -Path "1_Introduction_to_JavaScript.js" -ItemType File
+New-Item -Path "2_Setting_up_JavaScript_Environment.js" -ItemType File
+New-Item -Path "3_Variables_and_Data_Types.js" -ItemType File
+
+# Create a folder for Operators and subtopics inside it
+New-Item -Path "4_Operators" -ItemType Directory
+Set-Location "4_Operators"
+
+# Create .js files for each type of operator
+New-Item -Path "Arithmetic_Operators.js" -ItemType File
+New-Item -Path "Assignment_Operators.js" -ItemType File
+New-Item -Path "Comparison_Operators.js" -ItemType File
+New-Item -Path "Logical_Operators.js" -ItemType File
+New-Item -Path "Ternary_Operator.js" -ItemType File
+New-Item -Path "Operator_Precedence.js" -ItemType File
+
+# Go back to Week 1 folder
+Set-Location ..
+
+# Create a folder for Control Flow and subtopics inside it
+New-Item -Path "5_Control_Flow" -ItemType Directory
+Set-Location "5_Control_Flow"
+
+# Create .js files for Control Flow subtopics
+New-Item -Path "If_Else_Statements.js" -ItemType File
+New-Item -Path "Switch_Case.js" -ItemType File
+New-Item -Path "For_Loop.js" -ItemType File
+New-Item -Path "While_Loop.js" -ItemType File
+New-Item -Path "Do_While_Loop.js" -ItemType File
+New-Item -Path "Break_and_Continue.js" -ItemType File
+
+# Verify the structure
+Set-Location ..
+
+# Create the Week 2 folder
+New-Item -Path "Week 2 - Functions_Arrays_Objects" -ItemType Directory
+
+# Navigate into the Week 2 folder
+Set-Location "Week 2 - Functions_Arrays_Objects"
+
+# Create .js files for each main topic
+New-Item -Path "1_Functions.js" -ItemType File
+New-Item -Path "2_Arrays.js" -ItemType File
+New-Item -Path "3_Objects.js" -ItemType File
+New-Item -Path "4_Error_Handling.js" -ItemType File
+
+# Create subfolders for Functions and their subtopics
+New-Item -Path "1_Functions" -ItemType Directory
+Set-Location "1_Functions"
+New-Item -Path "Function_Declaration.js" -ItemType File
+New-Item -Path "Function_Expressions.js" -ItemType File
+New-Item -Path "Arrow_Functions.js" -ItemType File
+New-Item -Path "Parameters_Arguments.js" -ItemType File
+New-Item -Path "Return_Values.js" -ItemType File
+New-Item -Path "IIFE.js" -ItemType File
+Set-Location ..
+
+# Create subfolder for Arrays and their subtopics
+New-Item -Path "2_Arrays" -ItemType Directory
+Set-Location "2_Arrays"
+New-Item -Path "Creating_Arrays.js" -ItemType File
+New-Item -Path "Array_Methods.js" -ItemType File
+New-Item -Path "Looping_Arrays.js" -ItemType File
+New-Item -Path "Multidimensional_Arrays.js" -ItemType File
+Set-Location ..
+
+# Create subfolder for Objects and their subtopics
+New-Item -Path "3_Objects" -ItemType Directory
+Set-Location "3_Objects"
+New-Item -Path "Creating_Objects.js" -ItemType File
+New-Item -Path "Accessing_Properties.js" -ItemType File
+New-Item -Path "Modifying_Properties.js" -ItemType File
+New-Item -Path "Object_Methods.js" -ItemType File
+New-Item -Path "This_Keyword.js" -ItemType File
+New-Item -Path "Object_Constructors.js" -ItemType File
+New-Item -Path "Prototype_Chain.js" -ItemType File
+Set-Location ..
+# Create the Week 3 folder
+New-Item -Path "Week 3 - DOM_Events_Async" -ItemType Directory
+
+# Navigate into the Week 3 folder
+Set-Location "Week 3 - DOM_Events_Async"
+
+# Create .js files for each main topic
+New-Item -Path "1_DOM_Manipulation.js" -ItemType File
+New-Item -Path "2_Events.js" -ItemType File
+New-Item -Path "3_Asynchronous_JavaScript.js" -ItemType File
+
+# Create subfolders for DOM Manipulation and subtopics
+New-Item -Path "1_DOM_Manipulation" -ItemType Directory
+Set-Location "1_DOM_Manipulation"
+New-Item -Path "What_is_DOM.js" -ItemType File
+New-Item -Path "Selecting_Elements.js" -ItemType File
+New-Item -Path "Modifying_Elements.js" -ItemType File
+New-Item -Path "Adding_Removing_Elements.js" -ItemType File
+New-Item -Path "Modifying_Attributes_Classes.js" -ItemType File
+Set-Location ..
+
+# Create subfolder for Events and subtopics
+New-Item -Path "2_Events" -ItemType Directory
+Set-Location "2_Events"
+New-Item -Path "Introduction_to_Events.js" -ItemType File
+New-Item -Path "Event_Listeners.js" -ItemType File
+New-Item -Path "Mouse_Events.js" -ItemType File
+New-Item -Path "Keyboard_Events.js" -ItemType File
+New-Item -Path "Event_Propagation.js" -ItemType File
+New-Item -Path "Prevent_Default_and_Stop_Propagation.js" -ItemType File
+Set-Location ..
+
+# Create subfolder for Asynchronous JavaScript and subtopics
+New-Item -Path "3_Asynchronous_JavaScript" -ItemType Directory
+Set-Location "3_Asynchronous_JavaScript"
+New-Item -Path "Introduction_to_Async.js" -ItemType File
+New-Item -Path "Callbacks.js" -ItemType File
+New-Item -Path "Promises.js" -ItemType File
+New-Item -Path "Async_Await.js" -ItemType File
+New-Item -Path "Error_Handling_in_Promises.js" -ItemType File
+Set-Location ..
+# Create the Week 4 folder
+New-Item -Path "Week 4 - APIs_AJAX_JSON" -ItemType Directory
+
+# Navigate into the Week 4 folder
+Set-Location "Week 4 - APIs_AJAX_JSON"
+
+# Create .js files for each main topic
+New-Item -Path "1_Introduction_to_APIs.js" -ItemType File
+New-Item -Path "2_AJAX.js" -ItemType File
+New-Item -Path "3_Working_with_JSON.js" -ItemType File
+
+# Create subfolders for APIs and subtopics
+New-Item -Path "1_Introduction_to_APIs" -ItemType Directory
+Set-Location "1_Introduction_to_APIs"
+New-Item -Path "What_is_API.js" -ItemType File
+New-Item -Path "Types_of_APIs.js" -ItemType File
+New-Item -Path "Understanding_API_Endpoints.js" -ItemType File
+New-Item -Path "Making_API_Requests.js" -ItemType File
+Set-Location ..
+
+# Create subfolder for AJAX and subtopics
+New-Item -Path "2_AJAX" -ItemType Directory
+Set-Location "2_AJAX"
+New-Item -Path "What_is_AJAX.js" -ItemType File
+New-Item -Path "Using_XMLHttpRequest.js" -ItemType File
+New-Item -Path "Fetch_API.js" -ItemType File
+New-Item -Path "Handling_Responses.js" -ItemType File
+Set-Location ..
+
+# Create subfolder for Working with JSON and subtopics
+New-Item -Path "3_Working_with_JSON" -ItemType Directory
+Set-Location "3_Working_with_JSON"
+New-Item -Path "What_is_JSON.js" -ItemType File
+New-Item -Path "Parsing_JSON.js" -ItemType File
+New-Item -Path "Stringifying_JSON.js" -ItemType File
+New-Item -Path "JSON_vs_XML.js" -ItemType File
+Set-Location ..
+# Create the Week 5 folder
+New-Item -Path "Week 5 - DOM_Events_Forms" -ItemType Directory
+
+# Navigate into the Week 5 folder
+Set-Location "Week 5 - DOM_Events_Forms"
+
+# Create .js files for each main topic
+New-Item -Path "1_DOM_Manipulation.js" -ItemType File
+New-Item -Path "2_Events.js" -ItemType File
+New-Item -Path "3_Working_with_Forms.js" -ItemType File
+
+# Create subfolders for DOM Manipulation and subtopics
+New-Item -Path "1_DOM_Manipulation" -ItemType Directory
+Set-Location "1_DOM_Manipulation"
+New-Item -Path "Understanding_DOM.js" -ItemType File
+New-Item -Path "Selecting_DOM_Elements.js" -ItemType File
+New-Item -Path "Modifying_DOM_Elements.js" -ItemType File
+New-Item -Path "Creating_Removing_Elements.js" -ItemType File
+New-Item -Path "Styling_Elements_with_JavaScript.js" -ItemType File
+Set-Location ..
+
+# Create subfolder for Events and subtopics
+New-Item -Path "2_Events" -ItemType Directory
+Set-Location "2_Events"
+New-Item -Path "What_are_Events.js" -ItemType File
+New-Item -Path "Event_Types.js" -ItemType File
+New-Item -Path "Adding_Event_Listeners.js" -ItemType File
+New-Item -Path "Event_Propagation.js" -ItemType File
+New-Item -Path "Removing_Event_Listeners.js" -ItemType File
+Set-Location ..
+
+# Create subfolder for Working with Forms and subtopics
+New-Item -Path "3_Working_with_Forms" -ItemType Directory
+Set-Location "3_Working_with_Forms"
+New-Item -Path "Accessing_Form_Elements.js" -ItemType File
+New-Item -Path "Validating_Form_Data.js" -ItemType File
+New-Item -Path "Handling_Form_Submission.js" -ItemType File
+New-Item -Path "Using_FormData_API.js" -ItemType File
+Set-Location ..
+# Create the Week 6 folder
+New-Item -Path "Week 6 - AJAX_Fetch_JSON" -ItemType Directory
+
+# Navigate into the Week 6 folder
+Set-Location "Week 6 - AJAX_Fetch_JSON"
+
+# Create .js files for each main topic
+New-Item -Path "1_AJAX.js" -ItemType File
+New-Item -Path "2_Fetch_API.js" -ItemType File
+New-Item -Path "3_JSON.js" -ItemType File
+
+# Create subfolders for AJAX and subtopics
+New-Item -Path "1_AJAX" -ItemType Directory
+Set-Location "1_AJAX"
+New-Item -Path "Understanding_AJAX.js" -ItemType File
+New-Item -Path "XMLHttpRequest_Object.js" -ItemType File
+New-Item -Path "Sending_Requests.js" -ItemType File
+New-Item -Path "Handling_Responses.js" -ItemType File
+New-Item -Path "AJAX_with_jQuery.js" -ItemType File
+Set-Location ..
+
+# Create subfolder for Fetch API and subtopics
+New-Item -Path "2_Fetch_API" -ItemType Directory
+Set-Location "2_Fetch_API"
+New-Item -Path "Introduction_to_Fetch_API.js" -ItemType File
+New-Item -Path "Making_GET_POST_Requests.js" -ItemType File
+New-Item -Path "Handling_Responses_Fetch.js" -ItemType File
+New-Item -Path "Error_Handling_with_Fetch.js" -ItemType File
+New-Item -Path "Fetching_Data_from_APIs.js" -ItemType File
+Set-Location ..
+
+# Create subfolder for JSON and subtopics
+New-Item -Path "3_JSON" -ItemType Directory
+Set-Location "3_JSON"
+New-Item -Path "Understanding_JSON.js" -ItemType File
+New-Item -Path "Converting_to_JSON.js" -ItemType File
+New-Item -Path "Parsing_JSON_Data.js" -ItemType File
+New-Item -Path "Using_JSON_with_Fetch.js" -ItemType File
+Set-Location ..
+# Create the Week 7 folder
+New-Item -Path "Week 7 - Error_Handling_Debugging_Design_Patterns" -ItemType Directory
+
+# Navigate into the Week 7 folder
+Set-Location "Week 7 - Error_Handling_Debugging_Design_Patterns"
+
+# Create .js files for each main topic
+New-Item -Path "1_Error_Handling.js" -ItemType File
+New-Item -Path "2_Debugging.js" -ItemType File
+New-Item -Path "3_Design_Patterns.js" -ItemType File
+
+# Create subfolders for Error Handling and subtopics
+New-Item -Path "1_Error_Handling" -ItemType Directory
+Set-Location "1_Error_Handling"
+New-Item -Path "Types_of_Errors.js" -ItemType File
+New-Item -Path "Using_try_catch.js" -ItemType File
+New-Item -Path "Throwing_Custom_Errors.js" -ItemType File
+New-Item -Path "Finally_Block.js" -ItemType File
+New-Item -Path "Custom_Error_Classes.js" -ItemType File
+Set-Location ..
+
+# Create subfolder for Debugging and subtopics
+New-Item -Path "2_Debugging" -ItemType Directory
+Set-Location "2_Debugging"
+New-Item -Path "Debugging_Techniques.js" -ItemType File
+New-Item -Path "Using_Developer_Tools.js" -ItemType File
+New-Item -Path "Understanding_Call_Stack.js" -ItemType File
+New-Item -Path "Inspecting_Variables.js" -ItemType File
+New-Item -Path "Performance_Profiling.js" -ItemType File
+Set-Location ..
+
+# Create subfolder for Design Patterns and subtopics
+New-Item -Path "3_Design_Patterns" -ItemType Directory
+Set-Location "3_Design_Patterns"
+New-Item -Path "Introduction_to_Design_Patterns.js" -ItemType File
+New-Item -Path "Module_Pattern.js" -ItemType File
+New-Item -Path "Revealing_Module_Pattern.js" -ItemType File
+New-Item -Path "Singleton_Pattern.js" -ItemType File
+New-Item -Path "Factory_Pattern.js" -ItemType File
+New-Item -Path "Observer_Pattern.js" -ItemType File
+Set-Location ..
+# Create the Week 8 folder
+New-Item -Path "Week 8 - Asynchronous_JavaScript" -ItemType Directory
+
+# Navigate into the Week 8 folder
+Set-Location "Week 8 - Asynchronous_JavaScript"
+
+# Create .js files for each main topic
+New-Item -Path "1_Introduction_to_Asynchronous_JavaScript.js" -ItemType File
+New-Item -Path "2_Async_Await.js" -ItemType File
+New-Item -Path "3_Working_with_APIs.js" -ItemType File
+New-Item -Path "4_Event_Loop_and_Concurrency.js" -ItemType File
+
+# Create subfolder for Callbacks and subtopics
+New-Item -Path "1_Introduction_to_Asynchronous_JavaScript" -ItemType Directory
+Set-Location "1_Introduction_to_Asynchronous_JavaScript"
+New-Item -Path "Callbacks.js" -ItemType File
+New-Item -Path "Promises.js" -ItemType File
+New-Item -Path "Promise_Chaining.js" -ItemType File
+Set-Location ..
+
+# Create subfolder for Async/Await and subtopics
+New-Item -Path "2_Async_Await" -ItemType Directory
+Set-Location "2_Async_Await"
+New-Item -Path "Introduction_to_Async_Await.js" -ItemType File
+New-Item -Path "Error_Handling_with_Async_Await.js" -ItemType File
+New-Item -Path "Fetching_Data_with_Async_Await.js" -ItemType File
+Set-Location ..
+
+# Create subfolder for Working with APIs and subtopics
+New-Item -Path "3_Working_with_APIs" -ItemType Directory
+Set-Location "3_Working_with_APIs"
+New-Item -Path "Introduction_to_APIs.js" -ItemType File
+New-Item -Path "Fetch_API.js" -ItemType File
+New-Item -Path "GET_and_POST_Requests.js" -ItemType File
+New-Item -Path "Handling_API_Responses.js" -ItemType File
+Set-Location ..
+
+# Create subfolder for Event Loop and subtopics
+New-Item -Path "4_Event_Loop_and_Concurrency" -ItemType Directory
+Set-Location "4_Event_Loop_and_Concurrency"
+New-Item -Path "Understanding_Event_Loop.js" -ItemType File
+New-Item -Path "Call_Stack_and_Web_APIs.js" -ItemType File
+New-Item -Path "Microtasks_and_Macrotasks.js" -ItemType File
+Set-Location ..
+# Create the Week 9 folder
+New-Item -Path "Week 9 - DOM_Manipulation_and_Events" -ItemType Directory
+
+# Navigate into the Week 9 folder
+Set-Location "Week 9 - DOM_Manipulation_and_Events"
+
+# Create .js files for each main topic
+New-Item -Path "1_Introduction_to_the_DOM.js" -ItemType File
+New-Item -Path "2_Creating_and_Removing_Elements.js" -ItemType File
+New-Item -Path "3_Event_Handling.js" -ItemType File
+New-Item -Path "4_Event_Delegation.js" -ItemType File
+
+# Create subfolder for Selecting elements
+New-Item -Path "1_Introduction_to_the_DOM" -ItemType Directory
+Set-Location "1_Introduction_to_the_DOM"
+New-Item -Path "Selecting_Elements.js" -ItemType File
+New-Item -Path "Modifying_Elements.js" -ItemType File
+Set-Location ..
+
+# Create subfolder for Creating and Removing Elements and subtopics
+New-Item -Path "2_Creating_and_Removing_Elements" -ItemType Directory
+Set-Location "2_Creating_and_Removing_Elements"
+New-Item -Path "Creating_New_Elements.js" -ItemType File
+New-Item -Path "Appending_and_Inserting_Elements.js" -ItemType File
+New-Item -Path "Removing_Elements.js" -ItemType File
+Set-Location ..
+
+# Create subfolder for Event Handling and subtopics
+New-Item -Path "3_Event_Handling" -ItemType Directory
+Set-Location "3_Event_Handling"
+New-Item -Path "Understanding_Events.js" -ItemType File
+New-Item -Path "Adding_Event_Listeners.js" -ItemType File
+New-Item -Path "Event_Object_and_Properties.js" -ItemType File
+Set-Location ..
+
+# Create subfolder for Event Delegation and subtopics
+New-Item -Path "4_Event_Delegation" -ItemType Directory
+Set-Location "4_Event_Delegation"
+New-Item -Path "What_is_Event_Delegation.js" -ItemType File
+New-Item -Path "Implementing_Event_Delegation.js" -ItemType File
+New-Item -Path "Performance_Benefits.js" -ItemType File
+Set-Location ..
+# Create the Week 10 folder
+New-Item -Path "Week 10 - Asynchronous_JavaScript" -ItemType Directory
+
+# Navigate into the Week 10 folder
+Set-Location "Week 10 - Asynchronous_JavaScript"
+
+# Create .js files for each main topic
+New-Item -Path "1_Understanding_Asynchronous_JavaScript.js" -ItemType File
+New-Item -Path "2_Callbacks.js" -ItemType File
+New-Item -Path "3_Promises.js" -ItemType File
+New-Item -Path "4_Async_Await.js" -ItemType File
+
+# Create subfolder for Callbacks
+New-Item -Path "2_Callbacks" -ItemType Directory
+Set-Location "2_Callbacks"
+New-Item -Path "Using_Callbacks.js" -ItemType File
+New-Item -Path "Callback_Hell.js" -ItemType File
+Set-Location ..
+
+# Create subfolder for Promises and subtopics
+New-Item -Path "3_Promises" -ItemType Directory
+Set-Location "3_Promises"
+New-Item -Path "Creating_and_Resolving_Promises.js" -ItemType File
+New-Item -Path "Chaining_Promises.js" -ItemType File
+Set-Location ..
+
+# Create subfolder for Async/Await and subtopics
+New-Item -Path "4_Async_Await" -ItemType Directory
+Set-Location "4_Async_Await"
+New-Item -Path "Understanding_Async_Functions.js" -ItemType File
+New-Item -Path "Using_Await.js" -ItemType File
+New-Item -Path "Error_Handling_with_Try_Catch.js" -ItemType File
+Set-Location ..

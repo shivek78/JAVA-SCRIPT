@@ -1,0 +1,252 @@
+Week 1 - JavaScript Basics/
+│
+├── 1_Introduction_to_JavaScript.js
+├── 2_Setting_up_JavaScript_Environment.js
+├── 3_Variables_and_Data_Types.js
+│
+├── 4_Operators/
+│   ├── Arithmetic_Operators.js
+│   ├── Assignment_Operators.js
+│   ├── Comparison_Operators.js
+│   ├── Logical_Operators.js
+│   ├── Ternary_Operator.js
+│   └── Operator_Precedence.js
+│
+└── 5_Control_Flow/
+    ├── If_Else_Statements.js
+    ├── Switch_Case.js
+    ├── For_Loop.js
+    ├── While_Loop.js
+    ├── Do_While_Loop.js
+    └── Break_and_Continue.js
+
+------------------------------------------------------------------------------------
+Week 2 - Functions_Arrays_Objects/
+│
+├── 1_Functions.js
+├── 2_Arrays.js
+├── 3_Objects.js
+├── 4_Error_Handling.js
+│
+├── 1_Functions/
+│   ├── Function_Declaration.js
+│   ├── Function_Expressions.js
+│   ├── Arrow_Functions.js
+│   ├── Parameters_Arguments.js
+│   ├── Return_Values.js
+│   └── IIFE.js
+│
+├── 2_Arrays/
+│   ├── Creating_Arrays.js
+│   ├── Array_Methods.js
+│   ├── Looping_Arrays.js
+│   └── Multidimensional_Arrays.js
+│
+└── 3_Objects/
+    ├── Creating_Objects.js
+    ├── Accessing_Properties.js
+    ├── Modifying_Properties.js
+    ├── Object_Methods.js
+    ├── This_Keyword.js
+    ├── Object_Constructors.js
+    └── Prototype_Chain.js
+---------------------------------------------------------------------------------------------------------------
+Week 3 - DOM_Events_Async/
+│
+├── 1_DOM_Manipulation.js
+├── 2_Events.js
+├── 3_Asynchronous_JavaScript.js
+│
+├── 1_DOM_Manipulation/
+│   ├── What_is_DOM.js
+│   ├── Selecting_Elements.js
+│   ├── Modifying_Elements.js
+│   ├── Adding_Removing_Elements.js
+│   └── Modifying_Attributes_Classes.js
+│
+├── 2_Events/
+│   ├── Introduction_to_Events.js
+│   ├── Event_Listeners.js
+│   ├── Mouse_Events.js
+│   ├── Keyboard_Events.js
+│   ├── Event_Propagation.js
+│   └── Prevent_Default_and_Stop_Propagation.js
+│
+└── 3_Asynchronous_JavaScript/
+    ├── Introduction_to_Async.js
+    ├── Callbacks.js
+    ├── Promises.js
+    ├── Async_Await.js
+    └── Error_Handling_in_Promises.js
+Week 4 - APIs_AJAX_JSON/
+│
+├── 1_Introduction_to_APIs.js
+├── 2_AJAX.js
+├── 3_Working_with_JSON.js
+│
+├── 1_Introduction_to_APIs/
+│   ├── What_is_API.js
+│   ├── Types_of_APIs.js
+│   ├── Understanding_API_Endpoints.js
+│   └── Making_API_Requests.js
+│
+├── 2_AJAX/
+│   ├── What_is_AJAX.js
+│   ├── Using_XMLHttpRequest.js
+│   ├── Fetch_API.js
+│   └── Handling_Responses.js
+│
+└── 3_Working_with_JSON/
+    ├── What_is_JSON.js
+    ├── Parsing_JSON.js
+    ├── Stringifying_JSON.js
+    └── JSON_vs_XML.js
+Week 5 - DOM_Events_Forms/
+│
+├── 1_DOM_Manipulation.js
+├── 2_Events.js
+├── 3_Working_with_Forms.js
+│
+├── 1_DOM_Manipulation/
+│   ├── Understanding_DOM.js
+│   ├── Selecting_DOM_Elements.js
+│   ├── Modifying_DOM_Elements.js
+│   ├── Creating_Removing_Elements.js
+│   └── Styling_Elements_with_JavaScript.js
+│
+├── 2_Events/
+│   ├── What_are_Events.js
+│   ├── Event_Types.js
+│   ├── Adding_Event_Listeners.js
+│   ├── Event_Propagation.js
+│   └── Removing_Event_Listeners.js
+│
+└── 3_Working_with_Forms/
+    ├── Accessing_Form_Elements.js
+    ├── Validating_Form_Data.js
+    ├── Handling_Form_Submission.js
+    └── Using_FormData_API.js
+    Week 6 - AJAX_Fetch_JSON/
+│
+├── 1_AJAX.js
+├── 2_Fetch_API.js
+├── 3_JSON.js
+│
+├── 1_AJAX/
+│   ├── Understanding_AJAX.js
+│   ├── XMLHttpRequest_Object.js
+│   ├── Sending_Requests.js
+│   ├── Handling_Responses.js
+│   └── AJAX_with_jQuery.js
+│
+├── 2_Fetch_API/
+│   ├── Introduction_to_Fetch_API.js
+│   ├── Making_GET_POST_Requests.js
+│   ├── Handling_Responses_Fetch.js
+│   ├── Error_Handling_with_Fetch.js
+│   └── Fetching_Data_from_APIs.js
+│
+└── 3_JSON/
+    ├── Understanding_JSON.js
+    ├── Converting_to_JSON.js
+    ├── Parsing_JSON_Data.js
+    └── Using_JSON_with_Fetch.js
+Week 7 - Error_Handling_Debugging_Design_Patterns/
+│
+├── 1_Error_Handling.js
+├── 2_Debugging.js
+├── 3_Design_Patterns.js
+│
+├── 1_Error_Handling/
+│   ├── Types_of_Errors.js
+│   ├── Using_try_catch.js
+│   ├── Throwing_Custom_Errors.js
+│   ├── Finally_Block.js
+│   └── Custom_Error_Classes.js
+│
+├── 2_Debugging/
+│   ├── Debugging_Techniques.js
+│   ├── Using_Developer_Tools.js
+│   ├── Understanding_Call_Stack.js
+│   ├── Inspecting_Variables.js
+│   └── Performance_Profiling.js
+│
+└── 3_Design_Patterns/
+    ├── Introduction_to_Design_Patterns.js
+    ├── Module_Pattern.js
+    ├── Revealing_Module_Pattern.js
+    ├── Singleton_Pattern.js
+    ├── Factory_Pattern.js
+    └── Observer_Pattern.js
+Week 8 - Asynchronous_JavaScript/
+│
+├── 1_Introduction_to_Asynchronous_JavaScript.js
+├── 2_Async_Await.js
+├── 3_Working_with_APIs.js
+├── 4_Event_Loop_and_Concurrency.js
+│
+├── 1_Introduction_to_Asynchronous_JavaScript/
+│   ├── Callbacks.js
+│   ├── Promises.js
+│   └── Promise_Chaining.js
+│
+├── 2_Async_Await/
+│   ├── Introduction_to_Async_Await.js
+│   ├── Error_Handling_with_Async_Await.js
+│   └── Fetching_Data_with_Async_Await.js
+│
+├── 3_Working_with_APIs/
+│   ├── Introduction_to_APIs.js
+│   ├── Fetch_API.js
+│   ├── GET_and_POST_Requests.js
+│   └── Handling_API_Responses.js
+│
+└── 4_Event_Loop_and_Concurrency/
+    ├── Understanding_Event_Loop.js
+    ├── Call_Stack_and_Web_APIs.js
+    └── Microtasks_and_Macrotasks.js
+Week 9 - DOM_Manipulation_and_Events/
+│
+├── 1_Introduction_to_the_DOM.js
+├── 2_Creating_and_Removing_Elements.js
+├── 3_Event_Handling.js
+├── 4_Event_Delegation.js
+│
+├── 1_Introduction_to_the_DOM/
+│   ├── Selecting_Elements.js
+│   └── Modifying_Elements.js
+│
+├── 2_Creating_and_Removing_Elements/
+│   ├── Creating_New_Elements.js
+│   ├── Appending_and_Inserting_Elements.js
+│   └── Removing_Elements.js
+│
+├── 3_Event_Handling/
+│   ├── Understanding_Events.js
+│   ├── Adding_Event_Listeners.js
+│   └── Event_Object_and_Properties.js
+│
+└── 4_Event_Delegation/
+    ├── What_is_Event_Delegation.js
+    ├── Implementing_Event_Delegation.js
+    └── Performance_Benefits.js
+Week 10 - Asynchronous_JavaScript/
+│
+├── 1_Understanding_Asynchronous_JavaScript.js
+├── 2_Callbacks.js
+├── 3_Promises.js
+├── 4_Async_Await.js
+│
+├── 2_Callbacks/
+│   ├── Using_Callbacks.js
+│   └── Callback_Hell.js
+│
+├── 3_Promises/
+│   ├── Creating_and_Resolving_Promises.js
+│   └── Chaining_Promises.js
+│
+└── 4_Async_Await/
+    ├── Understanding_Async_Functions.js
+    ├── Using_Await.js
+    └── Error_Handling_with_Try_Catch.js
+
